@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("/assets/images/City.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  animation: mymove 15s infinite;
+  position: absolute;
+}
+
+@-webkit-keyframes mymove {
+from {background-image: url("/assets/images/City.jpg");}
+to {background-image: url("/assets/images/City-1.jpg");}
+}
+
+/* #Urban {
+  margin:0 auto;
+  width:6em;
+  height: 5em;
+  transition: background-image 1s ease-in-out;
+  background-image:url();
+  } */
